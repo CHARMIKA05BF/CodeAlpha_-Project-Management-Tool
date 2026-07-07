@@ -1,0 +1,14 @@
+{
+  "name": "project-management-tool",
+  "version": "1.0.0",
+  "description": "Collaborative project management tool with auth, projects, tasks, comments, and realtime updates.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "ws": "^8.18.0"
+  }
+}

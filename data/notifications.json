@@ -1,0 +1,114 @@
+[
+  {
+    "id": "notif-mr9xyp0s-sfl6vz",
+    "userIds": [
+      "user-mr9xxgc0-9mdsdp"
+    ],
+    "message": "Project \"CodeAlpha\" created",
+    "type": "project",
+    "payload": {},
+    "createdAt": "2026-07-07T00:59:34.828Z",
+    "read": true
+  },
+  {
+    "id": "notif-mr9xzgw0-m26bna",
+    "userIds": [
+      "user-mr9xxgc0-9mdsdp"
+    ],
+    "message": "Task \"project management tool\" created",
+    "type": "task",
+    "payload": {
+      "projectId": "project-mr9xyp0m-dtucvn",
+      "taskId": "task-mr9xzgvv-p64hj1"
+    },
+    "createdAt": "2026-07-07T01:00:10.944Z",
+    "read": true
+  },
+  {
+    "id": "notif-mraq7ctc-en862r",
+    "userIds": [
+      "user-mraq6swi-kjgn8p"
+    ],
+    "message": "Project \"CodeAlpha\" created",
+    "type": "project",
+    "payload": {},
+    "createdAt": "2026-07-07T14:10:08.160Z",
+    "read": false
+  },
+  {
+    "id": "notif-mraq87ra-cq7soa",
+    "userIds": [
+      "user-mraq6swi-kjgn8p"
+    ],
+    "message": "Task \"mini social media\" created",
+    "type": "task",
+    "payload": {
+      "projectId": "project-mraq7ct3-2d417o",
+      "taskId": "task-mraq87qx-d20c1y"
+    },
+    "createdAt": "2026-07-07T14:10:48.262Z",
+    "read": false
+  },
+  {
+    "id": "notif-mraq91r8-g88s3i",
+    "userIds": [],
+    "message": "Task \"mini social media\" updated",
+    "type": "task",
+    "payload": {
+      "projectId": "project-mraq7ct3-2d417o",
+      "taskId": "task-mraq87qx-d20c1y"
+    },
+    "createdAt": "2026-07-07T14:11:27.140Z",
+    "read": false
+  },
+  {
+    "id": "notif-mrar2jk4-t8ozzl",
+    "userIds": [
+      "user-mrar24e9-lw75k1"
+    ],
+    "message": "Project \"CodeAlpha\" created",
+    "type": "project",
+    "payload": {},
+    "createdAt": "2026-07-07T14:34:23.236Z",
+    "read": false
+  },
+  {
+    "id": "notif-mrar35gg-xubgtx",
+    "userIds": [
+      "user-mrar24e9-lw75k1"
+    ],
+    "message": "Task \"project management tool\" created",
+    "type": "task",
+    "payload": {
+      "projectId": "project-mrar2jjw-hbtopq",
+      "taskId": "task-mrar35g6-ufljya"
+    },
+    "createdAt": "2026-07-07T14:34:51.616Z",
+    "read": false
+  },
+  {
+    "id": "notif-mrar3elx-ponle3",
+    "userIds": [
+      "user-mrar24e9-lw75k1"
+    ],
+    "message": "Project \"CodeAlpha\" created",
+    "type": "project",
+    "payload": {},
+    "createdAt": "2026-07-07T14:35:03.478Z",
+    "read": false
+  },
+  {
+    "id": "notif-mrar47gd-e1hgsh",
+    "userIds": [
+      "user-mrar24e9-lw75k1"
+    ],
+    "message": "Task \"simple e-commerce\" created",
+    "type": "task",
+    "payload": {
+      "projectId": "project-mrar3elo-qpblwp",
+      "taskId": "task-mrar47g5-ck5c6k"
+    },
+    "createdAt": "2026-07-07T14:35:40.861Z",
+    "read": false
+  }
+]

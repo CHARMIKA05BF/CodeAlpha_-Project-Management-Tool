@@ -1,0 +1,50 @@
+[
+  {
+    "id": "task-mr9xzgvv-p64hj1",
+    "projectId": "project-mr9xyp0m-dtucvn",
+    "title": "project management tool",
+    "description": "task3 ",
+    "assigneeId": "user-mr9xxgc0-9mdsdp",
+    "status": "inprogress",
+    "priority": "medium",
+    "dueDate": "2026-07-10",
+    "createdAt": "2026-07-07T01:00:10.939Z",
+    "comments": []
+  },
+  {
+    "id": "task-mraq87qx-d20c1y",
+    "projectId": "project-mraq7ct3-2d417o",
+    "title": "mini social media",
+    "description": "task2",
+    "assigneeId": "user-mraplso4-7tplp3",
+    "status": "todo",
+    "priority": "medium",
+    "dueDate": "2026-07-10",
+    "createdAt": "2026-07-07T14:10:48.249Z",
+    "comments": []
+  },
+  {
+    "id": "task-mrar35g6-ufljya",
+    "projectId": "project-mrar2jjw-hbtopq",
+    "title": "project management tool",
+    "description": "task3",
+    "assigneeId": "user-mraq6swi-kjgn8p",
+    "status": "inprogress",
+    "priority": "medium",
+    "dueDate": "2026-07-10",
+    "createdAt": "2026-07-07T14:34:51.606Z",
+    "comments": []
+  },
+  {
+    "id": "task-mrar47g5-ck5c6k",
+    "projectId": "project-mrar3elo-qpblwp",
+    "title": "simple e-commerce",
+    "description": "task1",
+    "assigneeId": "user-mraplso4-7tplp3",
+    "status": "done",
+    "priority": "low",
+    "dueDate": "2026-07-10",
+    "createdAt": "2026-07-07T14:35:40.853Z",
+    "comments": []
+  }
+]

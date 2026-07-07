@@ -1,0 +1,42 @@
+[
+  {
+    "id": "user-mrapj22r-m0ydz2",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "token": "token-mraq4xu8-46hye2",
+    "createdAt": "2026-07-07T13:51:14.499Z"
+  },
+  {
+    "id": "user-mraplso4-7tplp3",
+    "name": "Charmika",
+    "email": "charmika@gmail.com",
+    "password": "aebff6f3e9e7c898ca3506a8afd3735f4d53d4de6f1ed30e504d1e3cd585f50a",
+    "token": "token-mraplso4-lfxmf8",
+    "createdAt": "2026-07-07T13:53:22.276Z"
+  },
+  {
+    "id": "user-mraptboq-lhzov4",
+    "name": "Chaya",
+    "email": "Chaya@gmail.com",
+    "password": "e400bdf5e790b6a2265854e7e182622708e11724534c3a646b6cb18d31cb78b8",
+    "token": "token-mraptyq2-al4m48",
+    "createdAt": "2026-07-07T13:59:13.514Z"
+  },
+  {
+    "id": "user-mraq6swi-kjgn8p",
+    "name": "Gnana Charmika",
+    "email": "gnana@gmail.com",
+    "password": "9695a319ecf13de3d9ff7424e7724a9b20cda0c94903f32e5074338855116bad",
+    "token": "token-mraqebpv-i3sxvm",
+    "createdAt": "2026-07-07T14:09:42.354Z"
+  },
+  {
+    "id": "user-mrar24e9-lw75k1",
+    "name": "Charmika",
+    "email": "Charmika22@gmail.com",
+    "password": "69b19e7497f6a16f3ee3d3bcffa653b241f7edba0626ff1b3c31d48954e18a71",
+    "token": "token-mrar29n5-lkesmo",
+    "createdAt": "2026-07-07T14:34:03.585Z"
+  }
+]
