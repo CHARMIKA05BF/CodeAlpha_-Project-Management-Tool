@@ -443,7 +443,8 @@ async function api(path, options = {}) {
 
 function connectSocket() {
   if (state.socket) return;
-  state.socket = new WebSocket(`ws://${window.location.host}`);
+  const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
+  state.socket = new WebSocket(`${protocol}//${window.location.host}`);
   state.socket.addEventListener('open', () => {
     if (state.token) {
       state.socket.send(JSON.stringify({ type: 'auth', token: state.token }));
