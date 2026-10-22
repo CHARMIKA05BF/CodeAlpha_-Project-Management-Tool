@@ -1,125 +1,162 @@
-﻿# 📋 Project Management Tool
+# 🚀 CollabBoard — Project Management Tool
 
-A full-stack **Project Management Tool** inspired by Trello and Asana, developed as **Task 3** for the **CodeAlpha Full Stack Development Internship**. This application enables teams to organize projects, assign tasks, and collaborate efficiently through an intuitive interface.
+**Plan. Collaborate. Get Things Done.**
 
----
+CollabBoard is a full-stack collaborative project management application inspired by tools like Trello and Asana. It helps users organize projects, manage tasks, assign responsibilities, and communicate with team members through task comments and real-time notifications.
 
-## 🚀 Features
+🌐 **Live Demo:** https://project-management-tool-2leu.onrender.com/
 
-* 👤 User Registration & Login
-* 📁 Create and Manage Projects
-* 📌 Project Boards
-* ✅ Create, Update, and Delete Tasks
-* 👥 Assign Tasks to Team Members
-* 💬 Add Comments to Tasks
-* 🔒 Secure Authentication
-* 📱 Responsive User Interface
+## ✨ Features
 
----
+- **User Authentication:** Register, log in, and manage user sessions.
+- **Project Management:** Create and organize group projects.
+- **Task Management:** Create tasks with descriptions, priorities, statuses, assignees, and due dates.
+- **Task Assignment:** Assign responsibilities to team members.
+- **Task Comments:** Discuss tasks and share updates within the application.
+- **Real-Time Notifications:** Receive updates when project activities occur.
+- **WebSocket Integration:** Support real-time notifications and updates.
+- **Project Boards:** Organize tasks by status, including To Do, In Progress, and Done.
+- **Responsive Interface:** Manage projects through a clean web interface.
 
 ## 🛠️ Tech Stack
 
-### Frontend
+| Technology | Purpose |
+|---|---|
+| HTML5 | Application structure |
+| CSS3 | Styling and responsive UI |
+| JavaScript | Frontend interactions and application logic |
+| Node.js | Server-side runtime |
+| Express.js | REST API and backend routes |
+| WebSockets (`ws`) | Real-time communication |
+| JSON Files | Data storage |
+| Render | Application deployment |
+| Git & GitHub | Version control and source management |
 
-* HTML5
-* CSS3
-* JavaScript
-
-### Backend
-
-* Node.js
-* Express.js
-
-### Version Control
-
-* Git
-* GitHub
-
----
-
-## 📂 Project Structure
+## 🏗️ Project Structure
 
 ```text
 project-management-tool/
 ├── data/
-│── frontend/
-│   ├── js/
+│   ├── users.json
+│   ├── projects.json
+│   ├── tasks.json
+│   └── notifications.json
+├── frontend/
 │   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── app.js
 │   └── index.html
-├── server.js/
-│
+├── server.js
 ├── package.json
+├── package-lock.json
+├── .gitignore
 └── README.md
 ```
 
+## ⚙️ Installation and Setup
 
----
+### Prerequisites
 
-## ⚙️ Installation
+- Node.js and npm installed
+- Git installed (optional, for cloning the repository)
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/CHARMIKA05BF/CodeAlpha_-Project-Management-Tool.git
-```
-
-### 2. Navigate to the project folder
-
-```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
 cd project-management-tool
 ```
 
-### 3. Install dependencies
+Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
+
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start the server
+### 3. Start the application
 
 ```bash
 npm start
 ```
 
+### 4. Open the application
 
----
+Visit:
 
-## 🎯 Project Objectives
+```text
+http://localhost:3000
+```
 
-* Build a collaborative project management application.
-* Implement user authentication.
-* Manage projects and tasks efficiently.
-* Enable communication through task comments.
-* Practice full-stack web development concepts.
+## 🔌 API Overview
 
----
+The backend provides REST endpoints for the following operations:
 
-## 📚 Learning Outcomes
+| Method | Endpoint | Purpose |
+|---|---|---|
+| POST | `/api/auth/register` | Register a user |
+| POST | `/api/auth/login` | Log in |
+| GET | `/api/auth/me` | Retrieve the authenticated user |
+| GET | `/api/users` | Retrieve users |
+| GET | `/api/projects` | List accessible projects |
+| POST | `/api/projects` | Create a project |
+| GET | `/api/projects/:id` | Retrieve project details |
+| POST | `/api/projects/:id/tasks` | Create a task |
+| PUT | `/api/tasks/:id` | Update a task |
+| POST | `/api/tasks/:id/comments` | Add a task comment |
+| GET | `/api/notifications` | Retrieve notifications |
+| POST | `/api/notifications/read` | Mark notifications as read |
+| GET | `/api/health` | Check server health |
 
-* Full Stack Web Development
-* REST API Development
-* Authentication & Authorization
-* Project Organization
-* Backend Development with Express.js
-* Frontend Development using HTML, CSS & JavaScript
+Authenticated endpoints require a valid bearer token.
 
----
+## 🔄 How It Works
 
-## 🤝 Contributing
+1. Users register or log in to the application.
+2. Authenticated users create projects and manage their project boards.
+3. Tasks are created with descriptions, priorities, statuses, assignees, and due dates.
+4. Team members communicate through task comments.
+5. WebSocket connections deliver real-time notifications and project activity updates.
 
-Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
+## 🚀 Deployment
 
----
+The application is deployed using Render.
 
-## 📄 License
+**Live Application:** https://project-management-tool-2leu.onrender.com/
 
-This project is developed for educational purposes as part of the **CodeAlpha Full Stack Development Internship**.
+## 🎯 Learning Outcomes
 
----
+This project demonstrates practical experience with:
+
+- Full-stack web application development
+- REST API design and integration
+- Authentication and session handling
+- CRUD operations for projects and tasks
+- Real-time communication using WebSockets
+- Frontend and backend integration
+- Git-based version control and cloud deployment
+
+## 🔮 Future Enhancements
+
+- Persistent database integration
+- Stronger password hashing and session security
+- Project member invitation and management
+- Email notifications
+- File attachments and activity history
+- Improved access controls and automated testing
 
 ## 👩‍💻 Author
 
 **Bella Gnana Charmika**
 
-GitHub: https://github.com/CHARMIKA05BF
+Computer Science & Engineering Student
 
+- Live Demo: https://project-management-tool-2leu.onrender.com/
+- GitHub: Add your repository URL here
+- LinkedIn: Add your LinkedIn profile URL here
+
+---
+
+*Built to make team collaboration, task tracking, and project organization simpler.*
